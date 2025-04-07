@@ -29,3 +29,13 @@ You can only post one diary per day.
 You can also edit it here.
 
 <img width="1512" alt="スクリーンショット 2025-04-07 14 57 49" src="https://github.com/user-attachments/assets/5b7bf2fc-0025-4639-b544-00d26c155919" />
+
+## Tech Stack
+
+- Next.js
+- Supabase
+  - DB
+  - Auth
+  - Edge Function
+  - Supabase cron
+- Resend
