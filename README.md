@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# What's this product?
 
-## Getting Started
+This is a website where you can write and post your diary.
+One unique feature of this product is that if you make your diary public and submit it, you’ll receive someone else’s public diary by email at 7:00 AM the next morning.
+The charm lies in getting a glimpse into a stranger’s life through their diary.
 
-First, run the development server:
+<img width="1512" style="border: 1px solid black;"  alt="スクリーンショット 2025-04-07 14 50 11" src="https://github.com/user-attachments/assets/00edee3a-ceef-4d99-a03d-073b2ac70664" />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# How to use
+## write a diary
+After logging in, you can write a diary entry on the top page.
+By default, your diary is private, and you won't receive entries from others.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img width="1512" alt="スクリーンショット 2025-04-07 14 52 57" src="https://github.com/user-attachments/assets/61fa81d4-4f75-4050-848a-3cdca13afac1" />
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Now you can receive entries from others.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<img width="1512" alt="スクリーンショット 2025-04-07 14 53 18" src="https://github.com/user-attachments/assets/85ed870d-ce63-4da8-a387-68e367f77102" />
 
-## Learn More
+You can only post one diary per day.
 
-To learn more about Next.js, take a look at the following resources:
+<img width="1512" alt="スクリーンショット 2025-04-07 14 54 10" src="https://github.com/user-attachments/assets/b157b385-7bc8-46a1-9d1a-bb83e9e11c4b" />
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## view all diaries
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<img width="1512" alt="スクリーンショット 2025-04-07 14 57 22" src="https://github.com/user-attachments/assets/a4109314-6aa4-43be-936c-ce83699b18fd" />
 
-## Deploy on Vercel
+## View diary
+You can also edit it here.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<img width="1512" alt="スクリーンショット 2025-04-07 14 57 49" src="https://github.com/user-attachments/assets/5b7bf2fc-0025-4639-b544-00d26c155919" />
