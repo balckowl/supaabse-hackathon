@@ -56,14 +56,14 @@ export default function UpdateForm({ content, diaryId, isPublic: currentIspublic
         <form action={async () => {
           if (editor?.storage.characterCount.characters() <= 0) {
             toast.dismiss()
-            toast.error("0文字");
+            toast.error("Nothing is written.");
           } else {
-            toast.loading("送信中")
+            toast.loading("Posting...")
             setIsLoading(true)
             await updateAction(editor?.getHTML() as string, Number(diaryId), isPubice)
             setIsLoading(false)
             toast.dismiss()
-            toast.success("投稿完了")
+            toast.success("Posted successfully")
             finishUpdate()
             router.push(`/diaries/${diaryId}`)
             router.refresh()

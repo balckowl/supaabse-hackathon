@@ -50,15 +50,15 @@ const Tiptap = () => {
         <form action={async () => {
           if (editor?.storage.characterCount.characters() <= 0) {
             toast.dismiss()
-            toast.error("0文字");
+            toast.error("Nothing is written.");
           } else {
-            toast.loading("送信中")
+            toast.loading("Posting...")
             setIsLoading(true)
             await postAction(editor?.getHTML() as string, todayStr, isPubice)
             setIsLoading(false)
             toast.dismiss()
-            toast.success("投稿完了")
-            router.push("/")
+            toast.success("Posted successfully")
+            router.push("/home")
             router.refresh()
           }
         }}>
