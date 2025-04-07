@@ -13,6 +13,7 @@ import { GridPattern } from '@/components/magicui/grid-pattern'
 import { cn } from '@/lib/utils'
 import { Lock } from 'lucide-react'
 import { useRouter } from 'next/navigation'
+import PublicLabel from '@/components/molecules/PublicLabel/PublicLabel'
 
 type Props = {
   content: string
@@ -88,7 +89,7 @@ export default function UpdateForm({ content, diaryId, isPublic: currentIspublic
             <div className='flex items-center'>
               <div className='flex-1 flex gap-3 items-center'>
                 <SwitchButton isChecked={isPubice} handleToggle={() => setIsPublic(!isPubice)} />
-                {!isPubice && <p className='flex items-center gap-3 font-semibold text-red-500'><Lock color='red' />日記交換ができません。</p>}
+                <PublicLabel isPublic={isPubice} />
               </div>
               <Button className='cursor-pointer' type='submit' disabled={isLoading}>Update</Button>
             </div>
