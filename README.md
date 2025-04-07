@@ -36,6 +36,6 @@ You can also edit it here.
 - Supabase
   - DB
   - Auth
-  - Edge Function
+  - Edge Functions
   - Supabase cron
 - Resend
